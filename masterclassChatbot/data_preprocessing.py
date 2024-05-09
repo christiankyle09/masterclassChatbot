@@ -75,7 +75,7 @@ def create_train_data(vocabulary, tags, patterns):
 
 
 # Créer le vocabulaire du chatbot
-all_words, tags, tokenized_patterns = create_chatbot_vocabulary(file_path="masterclassChatbot/intent.json")
+all_words, tags, tokenized_patterns = create_chatbot_vocabulary(file_path="intent.json")
 
 # Nettoyer le vocabulaire du chatbot
 vocabulary = clean_chatbot_vocab(vocabulary=all_words)
