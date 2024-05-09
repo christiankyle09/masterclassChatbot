@@ -4,7 +4,7 @@ import numpy as np
 from sklearn.utils import shuffle
 from nltk.stem.porter import PorterStemmer
 
-#nltk.download('punkt')
+nltk.download('punkt')
 
 # Importer le stemmer NLTK
 stemmer = PorterStemmer()
