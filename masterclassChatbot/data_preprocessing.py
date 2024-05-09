@@ -32,7 +32,7 @@ def bag_of_words(tokenized_pattern, vocabulary):
 
 def create_chatbot_vocabulary(file_path):
     # Lire le fichier d'intention
-    with open(file_path, 'r') as file:
+    with open('masterclassChatbot/intent.json', 'r') as file:
         intents = json.load(file)
 
     all_words = []  # Liste vide pour stocker toutes les phrases tokenisées
@@ -75,7 +75,7 @@ def create_train_data(vocabulary, tags, patterns):
 
 
 # Créer le vocabulaire du chatbot
-all_words, tags, tokenized_patterns = create_chatbot_vocabulary(file_path="intent.json")
+all_words, tags, tokenized_patterns = create_chatbot_vocabulary(file_path="masterclassChatbot/intent.json")
 
 # Nettoyer le vocabulaire du chatbot
 vocabulary = clean_chatbot_vocab(vocabulary=all_words)
