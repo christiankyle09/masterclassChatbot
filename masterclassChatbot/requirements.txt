@@ -4,3 +4,4 @@ tensorflow
 nltk
 scikit-learn
 transformers
+tensorrt
