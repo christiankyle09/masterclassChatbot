@@ -1,7 +1,0 @@
-streamlit
-numpy
-tensorflow
-nltk
-scikit-learn
-transformers
-tensorrt
