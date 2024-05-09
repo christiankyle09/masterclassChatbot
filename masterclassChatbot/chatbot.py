@@ -34,7 +34,7 @@ historique = chatbot_brain.fit(
 )
 
 # Ouvrir le fichier d'intention
-with open("intent.json", 'r') as json_data:
+with open("masterclassChatbot/intent.json", 'r') as json_data:
     intents = json.load(json_data)
 
 # Définition de la fonction de prédiction du modèle
